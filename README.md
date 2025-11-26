@@ -128,9 +128,9 @@ VerbaChain/
 
    ```env
    # Network Configuration
-   NEXT_PUBLIC_NETWORK=alfajores
+   NEXT_PUBLIC_NETWORK=sepolia
 
-   # Contract Addresses (Alfajores Testnet)
+   # Contract Addresses (Sepolia Testnet)
    NEXT_PUBLIC_STAKING_CONTRACT=0x...
    NEXT_PUBLIC_REWARDS_CONTRACT=0x...
 
@@ -163,7 +163,7 @@ VerbaChain/
 1. Click **"Connect Wallet"** in the navigation bar
 2. Select MetaMask from the wallet options
 3. Approve the connection request
-4. Ensure you're on the Celo Alfajores testnet
+4. Ensure you're on the Celo Sepolia testnet
 
 ### Using Natural Language Transfers
 
@@ -276,7 +276,7 @@ Manages reward distribution and calculations:
 - Reward pool management
 - Distribution logic
 
-**Deployed Contracts (Alfajores):**
+**Deployed Contracts (Sepolia Testnet):**
 
 - Staking: `0x...` (See STAKING_DEPLOYMENT.md)
 - Rewards: `0x...` (See STAKING_DEPLOYMENT.md)
@@ -297,7 +297,7 @@ pnpm clean            # Clean all build artifacts
 pnpm contracts:compile            # Compile contracts
 pnpm contracts:test               # Run contract tests
 pnpm contracts:deploy             # Deploy to local network
-pnpm contracts:deploy:alfajores   # Deploy to Alfajores testnet
+pnpm contracts:deploy:sepolia     # Deploy to Sepolia testnet
 pnpm contracts:deploy:celo        # Deploy to Celo mainnet
 
 # Web App (from apps/web/)
@@ -330,10 +330,10 @@ pnpm test
 2. **Set up your deployer wallet private key**
 3. **Run deployment:**
    ```bash
-   pnpm contracts:deploy:alfajores
+   pnpm contracts:deploy:sepolia
    ```
 4. **Update contract addresses in .env.local**
-5. **Verify contracts on CeloScan (optional)**
+5. **Verify contracts on Sepolia Etherscan (optional)**
 
 ## 🌐 Network Configuration
 
@@ -341,18 +341,18 @@ pnpm test
 
 | Network             | Chain ID | RPC URL                                  | Block Explorer                |
 | ------------------- | -------- | ---------------------------------------- | ----------------------------- |
-| Alfajores (Testnet) | 44787    | https://alfajores-forno.celo-testnet.org | https://alfajores.celoscan.io |
+| Sepolia (Testnet)   | 11155111 | https://sepolia.infura.io/v3/YOUR_KEY    | https://sepolia.etherscan.io  |
 | Celo Mainnet        | 42220    | https://forno.celo.org                   | https://celoscan.io           |
 
-### Adding Celo to MetaMask
+### Adding Sepolia to MetaMask
 
-**Alfajores Testnet:**
+**Sepolia Testnet:**
 
-- Network Name: Celo Alfajores
-- RPC URL: https://alfajores-forno.celo-testnet.org
-- Chain ID: 44787
-- Currency Symbol: CELO
-- Block Explorer: https://alfajores.celoscan.io
+- Network Name: Sepolia
+- RPC URL: https://sepolia.infura.io/v3/YOUR_KEY
+- Chain ID: 11155111
+- Currency Symbol: ETH
+- Block Explorer: https://sepolia.etherscan.io
 
 ## 🔐 Security
 
