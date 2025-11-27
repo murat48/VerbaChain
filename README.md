@@ -450,28 +450,28 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🗺️ Roadmap
 
-### Q1 2024
+### Q1 2025
 
 - ✅ Natural Language Transaction Engine
 - ✅ Basic staking functionality
 - ✅ Token swap integration
 - ✅ Telegram notifications
 
-### Q2 2024
+### Q2 2025
 
 - 🔄 Advanced scheduling features
 - 🔄 Multi-signature wallet support
 - 🔄 Mobile app development
 - 🔄 Additional language support
 
-### Q3 2024
+### Q3 2026
 
 - 📋 DeFi protocol integrations
 - 📋 NFT support
 - 📋 Cross-chain bridges
 - 📋 Advanced analytics dashboard
 
-### Q4 2024
+### Q4 2026
 
 - 📋 Mainnet launch
 - 📋 Governance token
